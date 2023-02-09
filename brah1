@@ -1,0 +1,53 @@
+<div id="Categorias">
+                <h1>VEJA NOSSAS CATEGORIAS DE LIVROS!</h1>
+
+                <div class="container-categorias">
+                    <div class="card-categorias" id="DesenPessoal"> <------------------
+                        <div class="card-categorias-title">
+                            <h2>Desenvolvimento pessoal</h2>
+                            <p style="text-align: left;">Desenvolva suas habilidades pessoais e habilidades mentais para conquistar todos seus sonhos  de forma produtiva.</p>
+                        </div>
+                        <div class="card-categorias-content" id="desenpessoal-content">
+                            <ul>
+                                <p>Temos:</p>
+                                <li>- Mais Esperto que o Diabo</li>
+                                <li>- Como convencer alguém em 90 segundos</li>
+                                <li>- Antiotário</li>
+                                <li>- <span><a href="#Planos">Entre outros!</a></span></li>
+                            </ul>
+                        </div>
+                        <div class="arrow">
+                            <span>&#8673;</span>
+                        </div>
+                    </div>
+                    <div class="card-categorias">
+                        <div class="card-categorias-title">
+                            <h2>Finanças</h2>
+                            <p>Leia os melhores e mais conhecidos Livros de Finanças já visto pela Humanidade, aprenda a gerenciar o seu dinheiro de forma 
+                                consciente!</p>
+                        </div>
+                        <div class="card-categorias-content">
+                            <ul>
+                                <p>Temos:</p>
+                                <li>- Do Mil ao Milhão</li>
+                                <li>- O jeito Warren Buffett de Investir</li>
+                                <li>- O homem mais rico da Babilônia</li>
+                                <li>- <span><a href="#Planos">Entre outros!</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-categorias">
+                        <div class="card-categorias-title">
+                            <h2>Persuasão</h2>
+                            <p style="text-align: left;">Estamos disponibilizando muitos livros que são considerados uma arma no Mundo da Persuasão, está pronto para puxar o gatilho?</p>
+                        </div>
+                        <div class="card-categorias-content">
+                            <ul>
+                                <p>Temos:</p>
+                                <li>- As 48 Leis do Poder</li>
+                                <li>- Manual de Persuasão do FBI</li>
+                                <li>- As Armas da Persuasão</li>
+                                <li>- <span><a href="#Planos">Entre outros!</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
