@@ -1,0 +1,39 @@
+.container-categorias #DesenPessoal {
+    height: 21em;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+#DesenPessoal #desenpessoal-content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+    transition: all 0.5s;
+}
+
+#DesenPessoal:hover #desenpessoal-content {
+    height: 232px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#DesenPessoal:hover {
+    height: 35em;
+    transition: all .5s;
+}
+
+#DesenPessoal .arrow {
+    padding: 0px 15px 4px;
+    font-size: 2em;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+#DesenPessoal:hover .arrow {
+    transform: rotate(0);
+}
