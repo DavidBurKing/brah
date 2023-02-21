@@ -1,10 +1,88 @@
-.container-categorias #DesenPessoal {
+#Categorias h1 {
+    font: 900 3em 'Poppins', sans-serif;
+    color: var(--MainWhite);
+    text-align: center;
+    padding: 3em 0em 1em 0em;
+}
+
+#Categorias .container-categorias, #DesenPessoal {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+}
+
+#Categorias .card-categorias {
+    color: var(--MainWhite);
+    background-color: var(--background);
+    padding: 0em; margin: 0em 2em 1em 2em;
+    border-radius: 2em;
+    border: 4px solid var(--BorderColorGray);
+    text-align: center;
+    width: 21em;
+}
+
+.card-categorias .card-categorias-title {
+    color: var(--MainWhite);
+    border-bottom: 0.2em solid var(--BorderColorGray);
+    text-align: center;
+    background-color: var(--MainWhite);
+    border-radius: 1.8em;
+}
+
+.card-categorias .card-categorias-title h2 {
+    color: var(--background);
+    font-size: 2em;
+    font-style: italic;
+    padding: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-categorias .card-categorias-title p {
+    color: var(--background);
+    padding: 0.3em 1em 0.8em 1em;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.card-categorias .card-categorias-content ul{
+    list-style: none;
+    color: var(--MainWhite);
+    padding: 10px 30px;
+    padding-bottom: 0px;
+}
+
+.card-categorias-content ul p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.card-categorias-content ul li {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+}
+
+.card-categorias-content ul li span a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    color: var(--MainWhite);
+    font-weight: 600;
+}
+
+/*CATEGORIAS*/
+
+#DesenPessoal .card-categorias{
     height: 21em;
     overflow: hidden;
     transition: all .5s;
 }
 
-#DesenPessoal #desenpessoal-content {
+#DesenPessoal .card-categorias .card-categorias-content {
     padding: 0px 20px;
     height: 0;
     opacity: 0;
@@ -16,24 +94,26 @@
     transition: all 0.5s;
 }
 
-#DesenPessoal:hover #desenpessoal-content {
+#DesenPessoal .card-categorias:hover .card-categorias-content {
     height: 232px;
     opacity: 1;
     transform: translateY(0);
 }
 
-#DesenPessoal:hover {
+#DesenPessoal .card-categorias:hover {
     height: 35em;
     transition: all .5s;
 }
 
-#DesenPessoal .arrow {
+#DesenPessoal .card-categorias .arrow {
     padding: 0px 15px 4px;
     font-size: 2em;
     transform: rotate(-180deg);
     transition: all .5s;
 }
 
-#DesenPessoal:hover .arrow {
+#DesenPessoal .card-categorias:hover .arrow {
     transform: rotate(0);
 }
+
+/*CATEGORIAS*/
